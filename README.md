@@ -7,4 +7,6 @@ There are countless platforms out right now that provide accurate and engaging c
 
 Nucleus would allow users to search a specific topic (ex. JavaScript) and find the best online material for learning that subject, with the option of organizing the content as being free or paid. Eventually this could be organized such that the users could find content by other criteria other than cost, such as what medium it is taught through - text, audio, video, or a combination.
 
-> I hope to get started on this project in the summer of 2018...
+## The Execution
+
+*I hope to get started on this project in the summer of 2018...*
