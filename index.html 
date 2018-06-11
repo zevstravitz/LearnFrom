@@ -27,7 +27,8 @@
         <h3 id="landingboxtext">Nucleus helps you find the best content for learning any subject.</h3>
       </div>
       <div class="column is-offset-one-fifth is-one-third">
-        <center><img style="margin-right: 100px;" id="atomicon" src="physics.svg" alt="atom icon"><center>
+        <center><img class="floating" style="margin-right: 100px;" id="atomicon" src="physics.svg" alt="atom icon">
+          <center>
       </div>
     </div>
   </div>
@@ -43,7 +44,10 @@
   <div class="nucleusinfoanswer">
     <div class="columns">
       <div class="column is-offset-one-quarter is-half">
-        <p>There's a lot of information on the internet, and yet sometimes it can be hard to find the best resources on a given subject. Nucleus solves this by helping users find the best resources to learn about any subject, ranked and analyzed by the public.<p>
+        <p style="font-size: 24px; padding-bottom: 20px;">Nucleus is a web platform for anyone to find the best online content to learn anything. It works through rankings and analysis provided by the users.</p>
+        <p style="font-size: 24px; padding-bottom: 20px;">At Nucleus, we have found that there are so many educational courses out there, and yet it can be hard to find the right one. We will help you find it.</p>
+        <p style="font-size: 24px;">If you want to learn Statistics, Nucleus will tell you what the public has decided teaches it best. It will give you options for statistics coures from such as MIT OpenCourseWare, Coursera, Udemy, Khan Academy, Udacity, Edx, DataCamp, and others.
+          You will be able to customize your searches to filter using crieria such as cost and difficulty.</p>
       </div>
     </div>
   </div>
@@ -59,7 +63,8 @@
   <div class="nucleusinfoanswer">
     <div class="columns">
       <div class="column is-offset-one-quarter is-half">
-        <p>Nucleus is projected to launch in the fall of 2018.<p>
+        <p>Nucleus is projected to launch in the fall of 2018.
+          <p>
       </div>
     </div>
   </div>

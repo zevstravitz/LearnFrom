@@ -49,13 +49,12 @@ body {
   padding: 30px 0px 30px 0px;
   font-family: 'Raleway', sans-serif;
   font-weight: 400;
-
 }
 
 .nucleusinfoanswer p {
   padding: 0px 30px 0px 30px;
   border-style: solid;
-  border-width: 0px 5px 0px 5px;
+  border-width: 0px 2px 0px 2px;
   border-color: black;
   font-family: 'Raleway', sans-serif;
   font-size: 32px;
@@ -71,4 +70,23 @@ body {
   text-align: center;
   text-decoration: none;
   color: white;
+}
+
+
+.floating {
+    transform: translatey(0px);
+    transform: translateX(0px);
+    animation: floating 4s ease-in-out infinite;
+}
+
+@keyframes floating {
+    0% {
+        transform: translatey(0px);
+    }
+    50% {
+        transform: translatey(-20px);
+    }
+    100% {
+        transform: translatey(0px);
+    }
 }
