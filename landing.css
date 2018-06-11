@@ -20,6 +20,7 @@ body {
   font-size: 36px;
   font-family: 'Raleway', sans-serif;
   padding-bottom: 50px;
+  font-weight: 700;
 }
 
 #atomicon {
@@ -46,6 +47,8 @@ body {
 .nucleusinfoanswer {
   background: #eaeaea;
   padding: 30px 0px 30px 0px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
 
 }
 

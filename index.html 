@@ -8,7 +8,7 @@
   <!-- Getting Bulma CDN -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
   <!-- Google Font -->
-  <link href="https://fonts.googleapis.com/css?family=Heebo:900|Raleway:800" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
   <!-- Font Awesome -->
   <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
 </head>
