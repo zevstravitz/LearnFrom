@@ -1,4 +1,7 @@
 # Nucleus
+
+Check out the Nucleus landing page at www.nucleuslearning.org
+
 There's a lot of information on the internet, and yet sometimes it can be hard to find the best resources on a given subject.
 Nucleus solves this by helping users find the best resources to learn about any subject, ranked and analyzed by the public.
 
