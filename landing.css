@@ -1,0 +1,91 @@
+body {
+  background: #4457c3;
+}
+
+#headtext {
+  color: #4457c3;
+  font-size: 36px;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+}
+
+#landingbox {
+  padding: 60px 0px 60px 0px;
+  background-color: #f0f0f0;
+  margin: 0px 0px 50px 0px;
+}
+
+#landingboxtext {
+  color: #c34457;
+  font-size: 36px;
+  font-family: 'Raleway', sans-serif;
+  padding-bottom: 50px;
+  font-weight: 700;
+}
+
+#atomicon {
+  height: 200px;
+  margin-top: 50px;
+  justify-content: center;
+}
+
+#landingboxbackground {
+  background-color: none;
+}
+
+.nucleusinfo {
+  margin: 50px 0px 50px 0px;
+}
+
+.nucleusinfoquestion {
+  font-size: 36px;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+}
+
+.nucleusinfoanswer {
+  background: #eaeaea;
+  padding: 30px 0px 30px 0px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+}
+
+.nucleusinfoanswer p {
+  padding: 0px 30px 0px 30px;
+  border-style: solid;
+  border-width: 0px 2px 0px 2px;
+  border-color: black;
+  font-family: 'Raleway', sans-serif;
+  font-size: 32px;
+}
+
+
+#github {
+  margin: 50px 0px 0px 0px;
+}
+
+#linktogithub {
+  font-size: 48px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+
+.floating {
+    transform: translatey(0px);
+    transform: translateX(0px);
+    animation: floating 4s ease-in-out infinite;
+}
+
+@keyframes floating {
+    0% {
+        transform: translatey(0px);
+    }
+    50% {
+        transform: translatey(-20px);
+    }
+    100% {
+        transform: translatey(0px);
+    }
+}
