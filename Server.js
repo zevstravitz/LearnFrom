@@ -9,5 +9,6 @@ app.get('/',function(req,res){
   //__dirname : It will resolve to your project folder.
 });
 
-app.listen(8080);
-console.log("Running at Port 8080");
+app.listen(process.env.PORT || 3000, function(){
+  console.log("Express server listening on port %d in %s mode", this.address().port, app.settings.env);
+});
