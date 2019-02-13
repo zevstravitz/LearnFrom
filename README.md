@@ -1,15 +1,12 @@
 # Nucleus
+Check out the Nucleus landing page at www.nucleuslearning.org.
 
-Check out the Nucleus landing page at www.nucleuslearning.org
-
-There's a lot of information on the internet, and yet sometimes it can be hard to find the best resources on a given subject.
-Nucleus solves this by helping users find the best resources to learn about any subject, ranked and analyzed by the public.
+Let's rethink the textbook.
 
 ## The Idea
-There are countless platforms out right now that provide accurate and engaging content in teaching subjects, anywhere from languages (Duolingo, Babbel, Drops, Lingvist, CoffeeStrap, Memrise, Busuu) to Programming (Coursera, CodeAcademy, Free Code Camp, Data Camp, Code.org, Udemy, Khan Academy). This is not to mention the thousands of YouTube videos that cover content on virtually any subject. However, because each of the websites works independently to produce content, users have little knowledge over which websites teach **individual** subjects best. For example, Duolingo might teach Spanish better than Babbel, but Babbel might teach French better.
+Textbooks can be a fantastic source of information. The comprehensiveness of most textbooks allow for a standardized approach to learning. However, textbooks have been around since ancient civilization and barely changed at all. The interface under which a textbook operates has always been an effectively 2-dimensional plane with static text or images. Recent developments in integrating textbooks into tablet technology is advancing, but progress is slow. It is hard to believe that a 7-year-old learns best by using a textbook with which they cannot interact.
 
-Nucleus would allow users to search a specific topic (ex. JavaScript) and find the best online material for learning that subject, with the option of organizing the content as being free or paid. Eventually this could be organized such that the users could find content by other criteria other than cost, such as what medium it is taught through - text, audio, video, or a combination.
+What I hope to achieve here is to develop interactive, dynamic, and visually appealing animations and programs that will help kids learn in a fun and intuitive way.
 
 ## The Execution
-
-*I hope to get started on this project in the summer of 2018...*
+This project will first be presented early March for the Northwestern IEEE project showcase.

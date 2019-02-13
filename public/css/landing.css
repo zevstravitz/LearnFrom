@@ -4,7 +4,7 @@ body {
 
 #headtext {
   color: #4457c3;
-  font-size: 48px;
+  font-size: 96px;
   text-align: center;
   font-family: 'Raleway', sans-serif;
 }
@@ -17,10 +17,9 @@ body {
 
 #landingboxtext {
   color: #c34457;
-  font-size: 36px;
+  font-size: 48px;
   font-family: 'Raleway', sans-serif;
   padding-bottom: 50px;
-  font-weight: 700;
 }
 
 #atomicon {
@@ -75,17 +74,17 @@ body {
 .floating {
     transform: translatey(0px);
     transform: translateX(0px);
-    animation: floating 4s ease-in-out infinite;
+    animation: floating 6s ease-in-out infinite;
 }
 
 @keyframes floating {
     0% {
-        transform: translatey(0px);
+        transform: translatey(40px);
     }
     50% {
-        transform: translatey(-25px);
+        transform: translatey(-65px);
     }
     100% {
-        transform: translatey(0px);
+        transform: translatey(40px);
     }
 }
