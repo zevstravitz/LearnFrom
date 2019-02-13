@@ -10,5 +10,5 @@ What I hope to achieve here is to develop interactive, dynamic, and visually app
 
 ## The Execution
 This project will first be presented early March for the Northwestern IEEE project showcase.
-=======
+
 Nucleus would allow users to search a specific topic (ex. JavaScript) and find the best online material for learning that subject, with the option of organizing the content as being free or paid. Eventually this could be organized such that the users could find content by other criteria other than cost, such as what medium it is taught through - text, audio, video, or a combination.
