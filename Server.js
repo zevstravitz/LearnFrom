@@ -5,7 +5,7 @@ const path    = require("path");
 app.use(express.static(path.join(__dirname, 'public'))); // STATIC ASSETS
 
 app.get('/',function(req,res){
-  res.sendFile(path.join(__dirname+'/index.html'));
+  res.sendFile(path.join(__dirname+'/pages/index.html'));
   //__dirname : It will resolve to your project folder.
 });
 
