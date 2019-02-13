@@ -9,6 +9,10 @@ app.get('/',function(req,res){
   //__dirname : It will resolve to your project folder.
 });
 
+app.get('/logic',function(req,res){
+  res.sendFile(path.join(__dirname+'/pages/logic.html'));
+});
+
 app.listen(process.env.PORT || 3000, function(){
 console.log("Express server listening on port %d in %s mode", this.address().port, app.settings.env);
 });
