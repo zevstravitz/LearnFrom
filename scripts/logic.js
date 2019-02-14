@@ -1,1 +1,1 @@
-console.log('test');
+document.write(1 + 6);
