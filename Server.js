@@ -5,20 +5,20 @@ const path    = require("path");
 app.use(express.static(path.join(__dirname, 'public'))); // STATIC ASSETS
 
 app.get('/',function(req,res){
-  res.sendFile(path.join(__dirname+'/pages/index.html'));
+  res.sendFile(path.join(__dirname+'/views/index.html'));
   //__dirname : It will resolve to your project folder.
 });
 
 app.get('/logic',function(req,res){
-  res.sendFile(path.join(__dirname+'/pages/logic.html'));
+  res.sendFile(path.join(__dirname+'/views/logic.html'));
 });
 
 app.get('/statistics',function(req,res){
-  res.sendFile(path.join(__dirname+'/pages/statistics.html'));
+  res.sendFile(path.join(__dirname+'/views/statistics.html'));
 });
 
 app.get('/AI',function(req,res){
-  res.sendFile(path.join(__dirname+'/pages/AI.html'));
+  res.sendFile(path.join(__dirname+'/views/AI.html'));
 });
 
 app.listen(process.env.PORT || 3000, function(){
