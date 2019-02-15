@@ -9,6 +9,10 @@ app.get('/',function(req,res){
   //__dirname : It will resolve to your project folder.
 });
 
+app.get('/algebra',function(req,res){
+  res.sendFile(path.join(__dirname+'/views/algebra.html'));
+});
+
 app.get('/logic',function(req,res){
   res.sendFile(path.join(__dirname+'/views/logic.html'));
 });

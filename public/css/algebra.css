@@ -1,0 +1,61 @@
+body {
+  background: #f0f0f0;
+}
+
+.nucleusinfo {
+  color: white;
+  background: #4457c3;
+  padding: 30px 0px;
+  margin: 0px 0px 40px 0px;;
+  text-align: center;
+  font-size: 36px;
+ }
+
+ .subtitles {
+   color: white;
+   background: #7144c3;
+   padding: 20px 0px;
+   margin: 20px 0px 20px 0px;;
+   text-align: center;
+   font-size: 24px;
+ }
+
+ .nucleusinfoanswer {
+   background: #f0f0f0;
+   padding: 30px 0px 30px 0px;
+   font-family: 'Raleway', sans-serif;
+   font-weight: 400;
+ }
+
+
+ .nucleusinfoanswer p {
+   padding: 0px 30px 0px 30px;
+   border-style: solid;
+   border-width: 0px 2px 0px 2px;
+   border-color: black;
+   font-family: 'Raleway', sans-serif;
+   font-size: 18px;
+ }
+
+ .nucleusinfoquestion {
+   font-size: 36px;
+   text-align: center;
+   font-family: 'Raleway', sans-serif;
+   color: white;
+ }
+
+#lingraph {
+  text-align: center;
+}
+
+#github {
+  margin: 50px 0px 0px 0px;
+  background: #4457c3;
+}
+
+#linktogithub {
+  font-size: 48px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
