@@ -8,7 +8,7 @@ body {
   text-align: center;
 }
 
-canvas {
+#numberMap {
   /* border: 1px solid #000000; */
   margin: 5px;
 }

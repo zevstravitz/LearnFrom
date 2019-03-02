@@ -1,5 +1,4 @@
-let canvas = document.querySelector('canvas');
-console.log(canvas);
+let canvas = document.getElementById('numberMap');
 let ctx = canvas.getContext('2d');
 canvas.width = window.innerWidth - 10;
 canvas.height = 600;
@@ -66,12 +65,22 @@ $( function() {
   });
 });
 
-function showCoords(event) {
-  var x = event.clientX;
-  var y = event.clientY;
-  var coor = "X coords: " + x-107 + ", Y coords: " + y-65;
+let complex = document.getElementById('numberMap');
+let cxt2 = complex.getContext('2d');
+complex.width = window.innerWidth - 10;
+complex.height = 600;
+
+
+
+function showCoords(complex, event) {
+  var rect = complex.getBoundingClientRect();
+  var x = event.clientX - rect.left;
+  var y = event.clientY - rect.right;
+  var coor = "X coords: " + x + ", Y coords: " + y;
   document.getElementById("Coordinates").innerHTML = coor;
 }
+
+
 
 function clearCoor() {
   document.getElementById("Coordinates").innerHTML = "";
