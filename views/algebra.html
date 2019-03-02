@@ -12,6 +12,10 @@
   <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
   <!-- Font Awesome -->
   <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 </head>
 
 <body>
@@ -38,6 +42,7 @@
 
   <div class="nucleusinfoanswer">
     <div class="columns">
+      <!--
       <div class="column is-1">
         <p style="margin: 0px; border-width: 0px; font-weight: bold;">Natural</p>
         <br>
@@ -50,36 +55,72 @@
         <p style="margin: 0px; border-width: 0px; font-weight: bold; font-size: 16px;">Imaginary</p>
         <br>
         <p style="margin: 0px; border-width: 0px; font-weight: bold;">Complex</p>
-
       </div>
+    -->
 
-      <div class="column is-10">
-        <p style="padding-bottom: 20px;">Natural - the set of positive counting numbers, i.e 1,2,3,...</p>
-        <p style="padding-bottom: 20px;">Integers - the set of natural numbers, their negative counterparts , and 0. These are often thought of as the values on a number line</p>
-        <p style="padding-bottom: 20px;">Rational - Any number which can be expressed as a fraction, i.e 21/4, -⅚, 3, and 123/4. Any integer is also a rational number</p>
-        <p style="padding-bottom: 20px;">Irrational - Any number which cannot be expressed as fraction, in decimal form they neither terminate or repeat</p>
-        <p style="padding-bottom: 20px;">Real - a value that can represent a point on a line, it can be either positive or negative, both rational and irrational numbers are included in this set</p>
-        <p style="padding-bottom: 20px;">Imaginary - numbers that can be written in the form bi, where b is a real number and i is the number sqr(-1)</p>
-        <p style="padding-bottom: 20px;">Complex - numbers that can be represented in the form a+bi, where a is a real number and b is a imaginary number</p>
+      <div class="with-sides column is-offset-1 is-10">
+        <h1 style="font-size: 36px;">Types of Numbers:</h1>
+        <div id="accordion">
+          <h1>Natural</h1>
+          <div>
+            <p><span style="font-weight: bold;">Natural</span> - the set of positive counting numbers, i.e 1,2,3,...</p>
+          </div>
+          <h1>Integers</h1>
+          <div>
+            <p><span style="font-weight: bold;">Integers</span> - the set of natural numbers, their negative counterparts , and 0. These are often thought of as the values on a number line</p>
+          </div>
+          <h1>Rational</h1>
+          <div>
+            <p><span style="font-weight: bold;">Rational</span> - Any number which can be expressed as a fraction, i.e 21/4, -⅚, 3, and 123/4. Any integer is also a rational number</p>
+          </div>
+          <h1>Irrational</h1>
+          <div>
+            <p><span style="font-weight: bold;">Irrational</span> - Any number which cannot be expressed as fraction, in decimal form they neither terminate or repeat</p>
+          </div>
+        <h1>Real</h1>
+        <div>
+          <p><span style="font-weight: bold;">Real</span> - a value that can represent a point on a line, it can be either positive or negative, both rational and irrational numbers are included in this set</p>
+        </div>
+        <h1>Imaginary</h1>
+        <div>
+          <p><span style="font-weight: bold;">Imaginary</span> - numbers that can be written in the form bi, where b is a real number and i is the number sqr(-1)</p>
+        </div>
+        <h1>Complex</h1>
+        <div>
+          <p><span style="font-weight: bold;">Complex</span> - numbers that can be represented in the form a+bi, where a is a real number and b is a imaginary number</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <div class="nucleusinfoanswer">
+    <div class="columns">
+      <div class="paragraphs column is-offset-1 is-10">
+        <p>When we are thinking about numbers, it can be helpful to imagine them as existing in some <span style="font-weight: bold;">space</span>, or <span style="font-weight: bold;">dimension</span>. We experience three dimensions in our everyday lives, but when we describe some things in the world, it is helpful to think about them in higher or lower dimensions, such as 2-dimensional space. In fact, there is a theory in physics, called "Superstring theory", where space-time is 10-dimensional!</p>
+        <br>
+        <p>To visualize real numbers, we can think of them existing on a number line, with numbers going left to right in order of their magnitutde. For example, 3 will be further along to the right than 2.</p>
       </div>
     </div>
   </div>
 
-    <div class="columns">
-      <div class="column is-offset-1 is-8">
-        <div id = "box" onmousemove="showCoords(event)" onmouseout="clearCoor()"></div>
-      </div>
-      <div class="column is-1">
-        <p id="Coordinates"></p>
-      </div>
+
+
+  <div class="columns">
+    <div class="column is-offset-1 is-8">
+      <div id="box" onmousemove="showCoords(event)" onmouseout="clearCoor()"></div>
     </div>
+    <div class="column is-1">
+      <p id="Coordinates"></p>
+    </div>
+  </div>
 
 
 
-    <p>Study some key algebraic definitions before moving onto the next chapter.</p>
+  <p>Study some key algebraic definitions before moving onto the next chapter.</p>
 
 
-    <!--<iframe src="https://quizlet.com/370850687/flashcards/embed?i=1xix5j&x=1jj1" height="500" width="100%" style="border:0"></iframe>
+  <!--<iframe src="https://quizlet.com/370850687/flashcards/embed?i=1xix5j&x=1jj1" height="500" width="100%" style="border:0"></iframe>
     -->
 
   <div id="Visual">

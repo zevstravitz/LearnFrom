@@ -58,10 +58,18 @@ ellipses.forEach(ellipse => {
   ctx.stroke();
 });
 
+//Accordion
+$( function() {
+  $( "#accordion" ).accordion({
+    collapsible: true,
+    active: false
+  });
+});
+
 function showCoords(event) {
   var x = event.clientX;
   var y = event.clientY;
-  var coor = "X coords: " + x + ", Y coords: " + y;
+  var coor = "X coords: " + x-107 + ", Y coords: " + y-65;
   document.getElementById("Coordinates").innerHTML = coor;
 }
 

@@ -13,11 +13,19 @@ canvas {
   margin: 5px;
 }
 
+#accordion h1 {
+  font-size: 24px;
+  text-align: center;
+  border-width: 1px 0px 1px 0px;
+  border-color: #4457c3;
+  border-style: solid;
+  outline: none;
+}
+
 .nucleusinfo {
   color: white;
   background: #4457c3;
-  padding: 30px 0px;
-  margin: 0px 0px 40px 0px;;
+  padding: 30px 0px 0px 0px;
   text-align: center;
   font-size: 36px;
  }
@@ -26,7 +34,7 @@ canvas {
    color: white;
    background: #7144c3;
    padding: 20px 0px;
-   margin: 20px 0px 20px 0px;;
+   margin: 0px 0px 20px 0px;;
    text-align: center;
    font-size: 24px;
  }
@@ -38,11 +46,17 @@ canvas {
    font-weight: 400;
  }
 
- .nucleusinfoanswer p {
+.with-sides {
    padding: 0px 30px 0px 30px;
    border-style: solid;
    border-width: 0px 2px 0px 2px;
    border-color: black;
+   font-family: 'Raleway', sans-serif;
+   font-size: 18px;
+ }
+
+ .paragraphs {
+   padding: 0px 30px 0px 30px;
    font-family: 'Raleway', sans-serif;
    font-size: 18px;
  }
@@ -58,7 +72,6 @@ canvas {
   height: 400px;
   border: 1px solid #4457c3;
 }
-
 
 #lingraph {
   text-align: center;
